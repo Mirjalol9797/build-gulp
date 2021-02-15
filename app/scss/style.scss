@@ -1,0 +1,17 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+
+	&__logo {
+		max-height: 200px;
+		text-align: center;
+		display: flex;
+		align-items: center;
+	}
+}
